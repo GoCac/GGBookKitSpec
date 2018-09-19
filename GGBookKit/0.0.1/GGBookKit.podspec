@@ -107,7 +107,7 @@ Pod::Spec.new do |s|
 
   # s.resource  = "icon.png"
 
-  s.resources = "GGBookKit/Sources/*.xib"
+  s.resources = ["GGBookKit/Sources/*.xib", "GGBookKit/Sources/*.jpg"]
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
